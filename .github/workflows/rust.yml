@@ -21,9 +21,9 @@ jobs:
     - name: Install
       run: cargo install wasm-pack
     - name: Build
-      run: wasm-pack build --target web --out-name wasm --out-dir ./static/dist
+      run: wasm-pack build --target web --out-name wasm --out-dir ./public/dist
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./static
+        github_token: ${{ secrets.PERSONAL_TOKEN }}
+        publish_dir: ./public
