@@ -1,3 +1,4 @@
 /target
 Cargo.lock
 !static/index.html
+node_modules
