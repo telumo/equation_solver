@@ -24,6 +24,6 @@ $ yarn run build
 ### 🔬 Serve locally
 
 ```sh
-# start & open browser
+# start app & open browser
 $ yarn run start:dev
 ```
