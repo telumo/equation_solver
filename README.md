@@ -5,6 +5,8 @@ EQUEATION SOLVER
 
 This is a web app that solves multivariate linear equations.
 
+## How To Use
+
 ## For developer
 
 ### 🛠️ Build
