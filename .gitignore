@@ -1,3 +1,9 @@
 /target
+node_modules
+**/*.rs.bk
 Cargo.lock
-!static/index.html
+bin/
+pkg/
+dist/
+wasm-pack.log
+.DS_Store

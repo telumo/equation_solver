@@ -15,10 +15,7 @@ impl Component for Model {
     type Message = Msg;
     type Properties = ();
     fn create(_: Self::Properties, link: ComponentLink<Self>) -> Self {
-        Self {
-            link,
-            value: 0,
-        }
+        Self { link, value: 0 }
     }
 
     fn update(&mut self, msg: Self::Message) -> ShouldRender {
@@ -50,4 +47,9 @@ impl Component for Model {
 #[wasm_bindgen(start)]
 pub fn run_app() {
     App::<Model>::new().mount_to_body();
+}
+
+#[test]
+fn sample() {
+    assert_eq!(1, 1)
 }
