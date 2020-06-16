@@ -7,11 +7,21 @@ This is a web app that solves multivariate linear equations.
 
 ## For developer
 
-Run Locally
-```
-# build
-wasm-pack build --target web --out-name wasm --out-dir ./public/dist
+### 🛠️ Build
 
-# serve
-miniserve ./public --index index.html --port 8089
+When building for the first time, ensure to install dependencies first.
+
+```sh
+$ yarn install
+```
+
+```sh
+$ yarn run build
+```
+
+### 🔬 Serve locally
+
+```sh
+# start & open browser
+$ yarn run start:dev
 ```
